@@ -3,7 +3,7 @@ declare namespace Mutation {
     interface Response {
       success: boolean;
     }
-  
+
     interface Variables {
       id: string;
     }
