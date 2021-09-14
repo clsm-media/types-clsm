@@ -1,6 +1,8 @@
 declare namespace Mutation {
   namespace requestResetPassword {
-    interface Response {}
+    interface Response {
+      requestResetPassword?: boolean;
+    }
 
     interface Variables {
       input: {
