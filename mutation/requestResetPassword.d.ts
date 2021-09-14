@@ -1,5 +1,5 @@
 declare namespace Mutation {
-  namespace requestResetPassword {
+  namespace RequestResetPassword {
     interface Response {
       requestResetPassword?: boolean;
     }

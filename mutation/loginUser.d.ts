@@ -1,5 +1,5 @@
 declare namespace Mutation {
-  namespace loginUser {
+  namespace LoginUser {
     interface Response {
       loginUser?: {
         jwtToken: string;

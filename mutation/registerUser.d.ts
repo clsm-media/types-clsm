@@ -1,7 +1,7 @@
 declare namespace Mutation {
   namespace registerUser {
     interface Response {
-      registerUser?: {
+      RegisterUser?: {
         output: boolean;
       }
     }
