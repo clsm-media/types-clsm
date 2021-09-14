@@ -1,7 +1,9 @@
 declare namespace Mutation {
   namespace loginOauth2 {
     interface Response {
-      jwtToken: string;
+      loginOauth2?: {
+        jwtToken: string;
+      }
     }
 
     interface Variables {
