@@ -6,7 +6,6 @@ declare namespace Mutation {
 
     interface Variables {
       input: {
-        email: string;
         token: string;
       }
     }
