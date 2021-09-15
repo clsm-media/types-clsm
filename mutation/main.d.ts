@@ -3,3 +3,4 @@
 /// <reference path="./registerUser.d.ts" />
 /// <reference path="./requestResetPassword.d.ts" />
 /// <reference path="./resetUserPassword.d.ts" />
+/// <reference path="./verifyAccount.d.ts" />
