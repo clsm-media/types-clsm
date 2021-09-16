@@ -1,5 +1,5 @@
-declare namespace Mutation {
-  namespace registerUser {
+declare namespace Mutation{
+  namespace verifyAccount {
     interface Response {
       success: boolean;
     }
@@ -8,8 +8,6 @@ declare namespace Mutation {
       input: {
         email: string;
         password: string;
-        firstName: string;
-        lastName: string;
       };
     }
   }
