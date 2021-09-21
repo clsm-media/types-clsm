@@ -7,16 +7,14 @@ declare namespace Mutation {
     }
 
     interface Variables {
-      input: {
-        google?: {
-          idToken: string;
-        },
-        apple?: {
-          idToken: string;
-          firstName: string;
-          lastName: string;
-        }
-      };
+      google?: {
+        idToken: string;
+      },
+      apple?: {
+        idToken: string;
+        firstName: string;
+        lastName: string;
+      }
     }
   }
 }
