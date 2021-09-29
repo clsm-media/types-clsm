@@ -4,3 +4,6 @@
 /// <reference path="./requestResetPassword.d.ts" />
 /// <reference path="./resetUserPassword.d.ts" />
 /// <reference path="./verifyAccount.d.ts" />
+/// <reference path="./changeUserPassword.d.ts" />
+/// <reference path="./deleteUser.d.ts" />
+/// <reference path="./updateProfile.d.ts" />

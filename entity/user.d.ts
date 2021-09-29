@@ -4,9 +4,12 @@ declare namespace Entity {
     email: string;
     firstName: string;
     lastName: string;
-    createdAt: Date;
-    updatedAt: Date;
+    fullName: string;
+    bio: string;
+    profilePictureURL?: string;
     RoleId: number;
     role: IRole;
+    createdAt: Date;
+    updatedAt: Date;
   }
 }
