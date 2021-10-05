@@ -7,3 +7,7 @@
 /// <reference path="./changeUserPassword.d.ts" />
 /// <reference path="./deleteUser.d.ts" />
 /// <reference path="./updateProfile.d.ts" />
+/// <reference path="./createConversation.d.ts" />
+/// <reference path="./updateConversation.d.ts" />
+/// <reference path="./deleteConversation.d.ts" />
+/// <reference path="./completeConversation.d.ts" />
