@@ -11,3 +11,6 @@
 /// <reference path="./updateConversation.d.ts" />
 /// <reference path="./deleteConversation.d.ts" />
 /// <reference path="./completeConversation.d.ts" />
+/// <reference path="./addAdmin.d.ts" />
+/// <reference path="./removeAdmin.d.ts" />
+/// <reference path="./loginOauthAdmin.d.ts" />
