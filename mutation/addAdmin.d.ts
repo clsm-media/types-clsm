@@ -6,7 +6,10 @@ declare namespace Mutation {
 
     interface Variables {
       input: {
+        firstName: string;
+        lastName: string;
         email: string;
+        role: Entity.IRoleName;
       }
     }
   }
