@@ -14,3 +14,6 @@
 /// <reference path="./addAdmin.d.ts" />
 /// <reference path="./removeAdmin.d.ts" />
 /// <reference path="./loginOauthAdmin.d.ts" />
+/// <reference path="./createInterest.d.ts" />
+/// <reference path="./editInterest.d.ts" />
+/// <reference path="./deleteInterest.d.ts" />
