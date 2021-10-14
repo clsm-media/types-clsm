@@ -5,3 +5,4 @@
 /// <reference path="./getPaginatedAdmins.d.ts" />
 /// <reference path="./getAllInterests.d.ts" />
 /// <reference path="./getMyInterests.d.ts" />
+/// <reference path="./getPaginatedInterests.d.ts" />
