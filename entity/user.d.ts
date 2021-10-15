@@ -9,6 +9,7 @@ declare namespace Entity {
     profilePictureURL?: string;
     RoleId: number;
     role: IRole;
+    interests: Entity.IInterest[];
     createdAt: Date;
     updatedAt: Date;
   }
