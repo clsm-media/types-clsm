@@ -12,6 +12,7 @@ declare namespace Mutation {
         lastName: string;
         bio: string;
         profilePictureFile?: File;
+        interestsIds?: string[];
       }
     }
   }
