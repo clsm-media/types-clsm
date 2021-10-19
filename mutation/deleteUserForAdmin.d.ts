@@ -1,14 +1,12 @@
 declare namespace Mutation {
-	namespace EditUserForAdmin {
+	namespace DeleteUserForAdmin {
 		interface Response {
-			editUserForAdmin?: Entity.IUser;
+			deleteUserForAdmin?: boolean;
 		}
 
 		interface Variables {
 			input: {
 				id: string
-				firstName: string;
-				lastName: string;
 			}
 		}
 	}
