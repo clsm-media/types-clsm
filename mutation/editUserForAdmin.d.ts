@@ -1,7 +1,7 @@
 declare namespace Mutation {
-	namespace EditUser {
+	namespace EditUserForAdmin {
 		interface Response {
-			editUser?: boolean;
+			editUserForAdmin?: boolean;
 		}
 
 		interface Variables {
