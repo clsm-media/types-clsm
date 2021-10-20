@@ -6,3 +6,4 @@
 /// <reference path="./getAllInterests.d.ts" />
 /// <reference path="./getMyInterests.d.ts" />
 /// <reference path="./getPaginatedInterests.d.ts" />
+/// <reference path="./getPaginatedUsers.d.ts" />
