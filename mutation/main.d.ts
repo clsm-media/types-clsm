@@ -19,3 +19,6 @@
 /// <reference path="./deleteInterest.d.ts" />
 /// <reference path="./editUserForAdmin.d.ts" />
 /// <reference path="./deleteUserForAdmin.d.ts" />
+/// <reference path="./editAdminForAdmin.d.ts" />
+/// <reference path="./followUser.d.ts" />
+/// <reference path="./unfollowUser.d.ts" />

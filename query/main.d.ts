@@ -8,3 +8,4 @@
 /// <reference path="./getPaginatedInterests.d.ts" />
 /// <reference path="./getConversationById.d.ts" />
 /// <reference path="./getPaginatedConversations.d.ts" />
+/// <reference path="./getPaginatedFollows.d.ts" />

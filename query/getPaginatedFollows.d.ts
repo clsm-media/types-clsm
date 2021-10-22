@@ -1,18 +1,18 @@
 declare namespace Query {
-  namespace GetPaginatedAdmins {
+  namespace GetPaginatedFollows {
     interface Response {
-      getPaginatedAdmins: {
-        data: Entity.IAdmin[];
+      getPaginatedFollows: {
+        data: Entity.IUser[];
         page: Helper.Pagination.IPagination;
       };
     }
   
     interface Variables {
       pagination?: Helper.Pagination.PaginationInput;
-      sort?: Helper.Pagination.SortInput[];
-      filter?: {
+      filter: {
+        userId: string;
         searchTerm?: string;
-        role?: Entity.IAdminRoleName;
+        followType: 'FOLLOWERS' | 'FOLLOWINGS';
       };
     }
   }

@@ -10,6 +10,8 @@ declare namespace Entity {
     RoleId: number;
     role: IRole;
     interests: Entity.IInterest[];
+    followersAmount: number;
+    followingsAmount: number;
     createdAt: Date;
     updatedAt: Date;
   }

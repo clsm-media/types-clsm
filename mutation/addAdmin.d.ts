@@ -9,7 +9,7 @@ declare namespace Mutation {
         firstName: string;
         lastName: string;
         email: string;
-        role: Entity.IRoleName;
+        role: Entity.IAdminRoleName;
       }
     }
   }
