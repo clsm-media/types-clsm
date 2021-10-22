@@ -12,7 +12,7 @@ declare namespace Query {
       sort?: Helper.Pagination.SortInput[];
       filter?: {
         searchTerm?: string;
-        role?: Entity.IAdminRoleName;
+        roles?: [Entity.IAdminRoleName];
       };
     }
   }
