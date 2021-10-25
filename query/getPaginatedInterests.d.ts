@@ -1,7 +1,7 @@
 declare namespace Query {
   namespace GetPaginatedInterests {
     interface Response {
-      getPaginatedConversations: {
+      getPaginatedInterests: {
         data: Entity.IInterest[];
         page: Helper.Pagination.IPagination;
       };
