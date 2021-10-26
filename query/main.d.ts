@@ -9,3 +9,5 @@
 /// <reference path="./getConversationById.d.ts" />
 /// <reference path="./getPaginatedConversations.d.ts" />
 /// <reference path="./getPaginatedFollows.d.ts" />
+/// <reference path="./getTopicsByConversation.d.ts" />
+/// <reference path="./search.d.ts" />

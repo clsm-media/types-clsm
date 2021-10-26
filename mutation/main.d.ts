@@ -22,3 +22,5 @@
 /// <reference path="./editAdminForAdmin.d.ts" />
 /// <reference path="./followUser.d.ts" />
 /// <reference path="./unfollowUser.d.ts" />
+/// <reference path="./addTopic.d.ts" />
+/// <reference path="./disableTopic.d.ts" />

@@ -3,3 +3,4 @@
 /// <reference path="./role.d.ts" />
 /// <reference path="./conversation.d.ts" />
 /// <reference path="./interest.d.ts" />
+/// <reference path="./topic.d.ts" />

@@ -9,6 +9,8 @@ declare namespace Entity {
     promotionDate?: Date;
     coverImageURL?: string;
     status: IConversationStatus;
+    topics: ITopic[];
+    interests: IInterest[];
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
