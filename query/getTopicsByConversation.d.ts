@@ -5,7 +5,9 @@ declare namespace Query {
     }
   
     interface Variables {
-      conversationId: string;
+      input: {
+        conversationId: string;
+      },
     }
   }
 }
