@@ -12,6 +12,7 @@ declare namespace Entity {
     topics: ITopic[];
     interests: IInterest[];
     fansAmount: number;
+    isScheduled: boolean;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
