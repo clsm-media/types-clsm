@@ -1,7 +1,7 @@
 declare namespace Query {
   namespace GetUserById {
     interface Response {
-      user: Entity.IUser;
+      getUserById?: Entity.IUser;
     }
   
     interface Variables {
