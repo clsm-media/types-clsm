@@ -11,6 +11,7 @@ declare namespace Entity {
     status: IConversationStatus;
     topics: ITopic[];
     interests: IInterest[];
+    fansAmount: number;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;

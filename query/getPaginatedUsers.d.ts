@@ -12,6 +12,7 @@ declare namespace Query {
       sort?: Helper.Pagination.SortInput[];
       filter?: {
         searchTerm?: string;
+        conversationId?: string;
       };
     }
   }
