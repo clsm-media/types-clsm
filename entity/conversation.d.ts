@@ -1,6 +1,8 @@
 declare namespace Entity {
   type IConversationStatus = 'UPCOMING' | 'LIVE' | 'COMPLETED';
 
+  type IConversationEventsTab = 'UPCOMING' | 'SAVED' | 'HISTORY';
+
   interface IConversation {
     id: string;
     name: string;
