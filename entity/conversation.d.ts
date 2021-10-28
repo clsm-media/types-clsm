@@ -13,6 +13,7 @@ declare namespace Entity {
     status: IConversationStatus;
     topics: ITopic[];
     interests: IInterest[];
+    hosts: IUser[];
     fansAmount: number;
     isScheduled: boolean;
     createdAt: Date;
