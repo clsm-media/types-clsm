@@ -16,6 +16,7 @@ declare namespace Entity {
     hosts: IUser[];
     fansAmount: number;
     isScheduled: boolean;
+    shareURL: string;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
