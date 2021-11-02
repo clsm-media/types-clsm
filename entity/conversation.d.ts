@@ -3,6 +3,8 @@ declare namespace Entity {
 
   type IConversationEventsTab = 'UPCOMING' | 'SAVED' | 'HISTORY';
 
+  type IConversationFeedTab = 'LIVE_UPCOMING' | 'COMPLETED';
+
   interface IConversation {
     id: string;
     name: string;
@@ -17,6 +19,9 @@ declare namespace Entity {
     fansAmount: number;
     isScheduled: boolean;
     shareURL: string;
+    playbackFileURL?: string;
+    streamURL?: string;
+    playbackFileDurationInSeconds?: number;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
