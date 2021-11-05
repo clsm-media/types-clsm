@@ -13,3 +13,7 @@
 /// <reference path="./getPaginatedFollows.d.ts" />
 /// <reference path="./getTopicsByConversation.d.ts" />
 /// <reference path="./search.d.ts" />
+/// <reference path="./getAllBrands.d.ts" />
+/// <reference path="./getBrandById.d.ts" />
+/// <reference path="./getMyBrands.d.ts" />
+/// <reference path="./getPaginatedBrands.d.ts" />

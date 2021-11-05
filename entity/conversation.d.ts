@@ -5,6 +5,8 @@ declare namespace Entity {
 
   type IConversationFeedTab = 'LIVE_UPCOMING' | 'COMPLETED';
 
+  type IReactionType = 'WOW' | 'HAPPY' | 'SAD' | 'LOVE' | 'FIRE';
+
   interface IConversation {
     id: string;
     name: string;
@@ -14,6 +16,8 @@ declare namespace Entity {
     coverImageURL?: string;
     status: IConversationStatus;
     topics: ITopic[];
+    topic?: ITopic;
+    TopicId?: string;
     interests: IInterest[];
     hosts: IUser[];
     fansAmount: number;
