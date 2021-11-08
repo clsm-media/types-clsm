@@ -17,3 +17,4 @@
 /// <reference path="./getBrandById.d.ts" />
 /// <reference path="./getMyBrands.d.ts" />
 /// <reference path="./getPaginatedBrands.d.ts" />
+/// <reference path="./getConferenceToken.d.ts" />

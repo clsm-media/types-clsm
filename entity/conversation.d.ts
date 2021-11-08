@@ -26,6 +26,8 @@ declare namespace Entity {
     playbackFileURL?: string;
     streamURL?: string;
     playbackFileDurationInSeconds?: number;
+    startTime?: Date;
+    endTime?: Date;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
