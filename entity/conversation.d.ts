@@ -31,5 +31,6 @@ declare namespace Entity {
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
+    __typename: string;
   }
 }

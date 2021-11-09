@@ -15,5 +15,6 @@ declare namespace Entity {
     isFollowed: boolean;
     createdAt: Date;
     updatedAt: Date;
+    __typename: string;
   }
 }
