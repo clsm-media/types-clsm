@@ -5,6 +5,7 @@ declare namespace Entity {
     votedTimes: number;
     ConversationId: string;
     conversation: Entity.IConversation;
+    isVoted: boolean;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
