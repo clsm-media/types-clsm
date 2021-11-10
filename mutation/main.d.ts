@@ -32,3 +32,5 @@
 /// <reference path="./createBrand.d.ts" />
 /// <reference path="./editBrand.d.ts" />
 /// <reference path="./deleteBrand.d.ts" />
+/// <reference path="./createIssue.d.ts" />
+/// <reference path="./toggleRaiseHand.d.ts" />

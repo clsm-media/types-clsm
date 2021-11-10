@@ -9,6 +9,7 @@ declare namespace Entity {
     instagram: string;
     twitter: string;
     users?: Entity.IUser[]
+    isFollowed: boolean;
     createdAt: Date;
     updatedAt: Date;
   }
