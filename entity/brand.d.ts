@@ -10,6 +10,8 @@ declare namespace Entity {
     twitter: string;
     users?: Entity.IUser[]
     isFollowed: boolean;
+    qtyFollowers: number;
+    qtyFollowings: number;
     createdAt: Date;
     updatedAt: Date;
   }

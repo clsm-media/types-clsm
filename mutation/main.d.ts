@@ -34,3 +34,5 @@
 /// <reference path="./deleteBrand.d.ts" />
 /// <reference path="./createIssue.d.ts" />
 /// <reference path="./toggleRaiseHand.d.ts" />
+/// <reference path="./followBrand.d.ts" />
+/// <reference path="./unfollowBrand.d.ts" />
