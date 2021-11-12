@@ -3,6 +3,7 @@ declare namespace Entity {
     id: string;
     brandName: string;
     contactInfo: string;
+    brandURL: string;
     profilePictureURL?: string;
     description: string;
     facebook: string;

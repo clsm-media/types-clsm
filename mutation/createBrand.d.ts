@@ -9,11 +9,13 @@ declare namespace Mutation {
         brandName: string;
         contactInfo: string;
         description: string;
+        brandURL: string;
         facebook: string;
         instagram: string;
         twitter: string;
         logoFile?: File;
         usersIds: string[];
+        interestsIds: string[];
       };
     }
   }
