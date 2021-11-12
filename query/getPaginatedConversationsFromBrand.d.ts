@@ -1,7 +1,7 @@
 declare namespace Query {
   namespace GetPaginatedConversationsFromBrand {
     interface Response {
-      getPaginatedConversationsFromUser: {
+      getPaginatedConversationsFromBrand: {
         data: Entity.IConversation[];
         page: Helper.Pagination.IPagination;
       };
@@ -9,7 +9,6 @@ declare namespace Query {
   
     interface Variables {
       pagination?: Helper.Pagination.PaginationInput;
-      sort?: Helper.Pagination.SortInput[];
       filter: {
         brandId: string;
         searchTerm?: string;
