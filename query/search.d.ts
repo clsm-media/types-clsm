@@ -2,7 +2,7 @@ declare namespace Query {
   namespace Search {
     interface Response {
       search: {
-        data: (Entity.IUser | Entity.IConversation)[];
+        data: (Entity.IUser | Entity.IConversation | Entity.IBrand)[];
         page: Helper.Pagination.IPagination;
       };
     }

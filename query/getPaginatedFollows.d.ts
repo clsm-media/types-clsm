@@ -2,7 +2,7 @@ declare namespace Query {
   namespace GetPaginatedFollows {
     interface Response {
       getPaginatedFollows: {
-        data: Entity.IUser[];
+        data: (Entity.IUser | Entity.IBrand)[];
         page: Helper.Pagination.IPagination;
       };
     }
