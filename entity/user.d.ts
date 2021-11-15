@@ -12,6 +12,8 @@ declare namespace Entity {
     interests: Entity.IInterest[];
     followersAmount: number;
     followingsAmount: number;
+    qtyFollowers: number;
+    qtyFollowings: number;
     isFollowed: boolean;
     createdAt: Date;
     updatedAt: Date;
