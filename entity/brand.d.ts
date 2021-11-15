@@ -16,5 +16,6 @@ declare namespace Entity {
     interests?: Entity.IInterest[];
     createdAt: Date;
     updatedAt: Date;
+    __typename: string;
   }
 }
