@@ -12,6 +12,7 @@
 /// <reference path="./getPaginatedConversationsFromBrand.d.ts" />
 /// <reference path="./getPaginatedConversationsForFeed.d.ts" />
 /// <reference path="./getPaginatedFollows.d.ts" />
+/// <reference path="./getPaginatedFollowsForBrand.d.ts" />
 /// <reference path="./getTopicsByConversation.d.ts" />
 /// <reference path="./search.d.ts" />
 /// <reference path="./getAllBrands.d.ts" />
