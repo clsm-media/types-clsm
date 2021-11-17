@@ -36,4 +36,5 @@
 /// <reference path="./toggleRaiseHand.d.ts" />
 /// <reference path="./followBrand.d.ts" />
 /// <reference path="./unfollowBrand.d.ts" />
+/// <reference path="./updateTokens.d.ts" />
 /// <reference path="./bulkEditInterests.d.ts" />
