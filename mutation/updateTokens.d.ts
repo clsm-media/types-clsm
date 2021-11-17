@@ -7,7 +7,7 @@ declare namespace Mutation {
     interface Variables {
       input: {
         fcmTokenToAdd?: string;
-        fcmTokenToRemove: string;
+        fcmTokenToRemove?: string;
       };
     }
   }
