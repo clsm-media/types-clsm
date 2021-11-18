@@ -12,7 +12,7 @@ declare namespace Query {
       filter: {
         brandId: string;
         searchTerm?: string;
-        followType: 'FOLLOWERS' | 'FOLLOWINGS';
+        followType: Entity.IUserFollowType;
       };
     }
   }
