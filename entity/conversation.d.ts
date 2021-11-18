@@ -21,6 +21,8 @@ declare namespace Entity {
     interests: IInterest[];
     hosts: IUser[];
     fansAmount: number;
+    sponsors: IBrand[];
+    associates: IBrand[];
     isScheduled: boolean;
     shareURL: string;
     playbackFileURL?: string;

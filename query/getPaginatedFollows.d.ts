@@ -6,13 +6,13 @@ declare namespace Query {
         page: Helper.Pagination.IPagination;
       };
     }
-  
+
     interface Variables {
       pagination?: Helper.Pagination.PaginationInput;
       filter: {
         userId: string;
         searchTerm?: string;
-        followType: 'FOLLOWERS' | 'FOLLOWINGS';
+        followType: Entity.IUserFollowType;
       };
     }
   }

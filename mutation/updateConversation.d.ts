@@ -9,9 +9,14 @@ declare namespace Mutation {
         id: string;
         name: string;
         description: string;
+        topics: string[];
         date: Date;
         promotionDate?: Date;
         coverImageFile?: File;
+        hostsIds: string[];
+        interests: string[];
+        sponsorsIds: string[];
+        associatedBrandIds: string[];
       }
     }
   }

@@ -14,6 +14,8 @@ declare namespace Mutation {
         hostsIds: string[];
         topics: string[];
         interests: string[];
+        sponsorsIds: string[];
+        associatedBrandIds: string[];
       }
     }
   }
