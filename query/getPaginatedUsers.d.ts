@@ -2,7 +2,7 @@ declare namespace Query {
   namespace GetPaginatedUsers {
     interface Response {
       getPaginatedUsers: {
-        data: Entity.IUser[];
+        data: (Entity.IUser | Entity.IBrand)[];
         page: Helper.Pagination.IPagination;
       };
     }

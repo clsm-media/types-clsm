@@ -1,4 +1,7 @@
 declare namespace Entity {
+
+  type IUserFollowType = 'FOLLOWERS' | 'FOLLOWINGS';
+
   interface IUser {
     id: string;
     email: string;
