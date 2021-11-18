@@ -1,7 +1,7 @@
 declare namespace Helper {  
   namespace RealtimeDB {
     interface ISnapshot {
-      t?: ""; // t: current topic (if any)
+      t?: string; // t: current topic (if any)
       h?: {
         i: string; // "i": user id
         s?: number; // "s": if the user is speaking
