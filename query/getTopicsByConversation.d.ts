@@ -1,7 +1,7 @@
 declare namespace Query {
   namespace GetTopicsByConversation {
     interface Response {
-      getTopicsByConversation?: Entity.IConversation[];
+      getTopicsByConversation?: Entity.ITopic[];
     }
   
     interface Variables {
