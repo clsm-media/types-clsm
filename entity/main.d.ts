@@ -5,3 +5,4 @@
 /// <reference path="./interest.d.ts" />
 /// <reference path="./topic.d.ts" />
 /// <reference path="./brand.d.ts" />
+/// <reference path="./conversationEvent.d.ts" />
