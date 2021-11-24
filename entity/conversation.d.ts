@@ -23,6 +23,7 @@ declare namespace Entity {
     fansAmount: number;
     sponsors: IBrand[];
     associates: IBrand[];
+    producers: IUser[];
     isScheduled: boolean;
     shareURL: string;
     playbackFileURL?: string;
