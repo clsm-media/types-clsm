@@ -12,6 +12,7 @@ declare namespace Mutation {
         promotionDate?: Date;
         coverImageFile?: File;
         hostsIds: string[];
+        producersIds: string[];
         topics: string[];
         interests: string[];
         sponsorsIds: string[];
