@@ -7,6 +7,8 @@ declare namespace Entity {
 
   type IReactionType = 'WOW' | 'HAPPY' | 'SAD' | 'LOVE' | 'FIRE';
 
+  type IConversationJoin = 'TRY_JOINING_LATER' | 'NOT_AVAILABLE_TO_JOIN';
+
   interface IConversation {
     id: string;
     name: string;
