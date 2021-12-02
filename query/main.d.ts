@@ -20,3 +20,4 @@
 /// <reference path="./getMyBrands.d.ts" />
 /// <reference path="./getPaginatedBrands.d.ts" />
 /// <reference path="./getConferenceToken.d.ts" />
+/// <reference path="./getConfiguration.d.ts" />
