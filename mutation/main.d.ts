@@ -38,3 +38,5 @@
 /// <reference path="./unfollowBrand.d.ts" />
 /// <reference path="./updateTokens.d.ts" />
 /// <reference path="./bulkEditInterests.d.ts" />
+/// <reference path="./addFanAsGuestToConversation.d.ts" />
+/// <reference path="./removeGuestFromConversation.d.ts" />
