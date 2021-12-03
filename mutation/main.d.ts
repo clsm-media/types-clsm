@@ -40,3 +40,4 @@
 /// <reference path="./bulkEditInterests.d.ts" />
 /// <reference path="./addFanAsGuestToConversation.d.ts" />
 /// <reference path="./removeGuestFromConversation.d.ts" />
+/// <reference path="./updateConfiguration.d.ts" />
