@@ -5,7 +5,7 @@ declare namespace Helper {
       t?: {
         i: string; // "i": topic id
         n?: string; // "n": topic name
-        v?: string; // "v": topic voted times
+        v?: number; // "v": topic voted times
       }; 
       // "h": hosts participating in the conference (if any)
       h?: {
