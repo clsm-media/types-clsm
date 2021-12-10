@@ -6,5 +6,6 @@ declare namespace Entity {
     conversationDate: Date;
     conversationEndDate?: Date;
     lastUpdateAt: Date;
+    timeFrame: number;
   }
 }
