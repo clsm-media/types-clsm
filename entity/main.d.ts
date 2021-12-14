@@ -7,3 +7,6 @@
 /// <reference path="./brand.d.ts" />
 /// <reference path="./conversationEvent.d.ts" />
 /// <reference path="./configuration.d.ts" />
+/// <reference path="./topicCache.d.ts" />
+/// <reference path="./reactionCache.d.ts" />
+/// <reference path="./dataAnalyticsCache.d.ts" />
