@@ -10,3 +10,5 @@
 /// <reference path="./topicCache.d.ts" />
 /// <reference path="./reactionCache.d.ts" />
 /// <reference path="./dataAnalyticsCache.d.ts" />
+/// <reference path="./accessCodesBatchDetails.d.ts" />
+/// <reference path="./accessCodes.d.ts" />
