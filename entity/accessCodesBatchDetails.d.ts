@@ -3,6 +3,7 @@ declare namespace Entity {
     id: string;
     user: Entity.IUser;
     name: string;
+    contactEmail: string;
     batchName: string;
     shortDescription: string;
     qtyCodes: number;

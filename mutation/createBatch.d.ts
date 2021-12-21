@@ -8,7 +8,7 @@ declare namespace Mutation {
       input: {
         name: string;
         batchName: string;
-        qtyCodes: string;
+        qtyCodes: number;
         shortDescription: string;
       }
     }
