@@ -12,3 +12,4 @@
 /// <reference path="./dataAnalyticsCache.d.ts" />
 /// <reference path="./accessCodesBatchDetails.d.ts" />
 /// <reference path="./accessCodes.d.ts" />
+/// <reference path="./timeZones.d.ts" />

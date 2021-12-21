@@ -22,3 +22,4 @@
 /// <reference path="./getConferenceToken.d.ts" />
 /// <reference path="./getConfiguration.d.ts" />
 /// <reference path="./getPaginatedBatches.d.ts" />
+/// <reference path="./getTimeZones.d.ts" />
