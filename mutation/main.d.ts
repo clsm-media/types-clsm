@@ -43,3 +43,6 @@
 /// <reference path="./removeGuestFromConversation.d.ts" />
 /// <reference path="./updateConfiguration.d.ts" />
 /// <reference path="./updateBatch.d.ts" />
+/// <reference path="./createTimeZone.d.ts" />
+/// <reference path="./updateTimeZone.d.ts" />
+/// <reference path="./deleteTimeZone.d.ts" />
