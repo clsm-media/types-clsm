@@ -8,6 +8,7 @@ declare namespace Mutation {
       input: {
         id: string;
         name: string;
+        contactEmail: string;
         batchName: string;
         shortDescription: string;
         enabledToSignUp: boolean;

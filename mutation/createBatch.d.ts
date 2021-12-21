@@ -7,6 +7,7 @@ declare namespace Mutation {
     interface Variables {
       input: {
         name: string;
+        contactEmail: string;
         batchName: string;
         qtyCodes: number;
         shortDescription: string;
