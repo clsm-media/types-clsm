@@ -9,7 +9,9 @@ declare namespace Mutation {
         name: string;
         description: string;
         date: Date;
+        timeZone: Entity.ITimeZone;
         promotionDate?: Date;
+        promotionTimeZone?: Entity.ITimeZone;
         coverImageFile?: File;
         hostsIds: string[];
         producersIds: string[];
