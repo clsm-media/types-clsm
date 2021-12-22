@@ -14,7 +14,9 @@ declare namespace Entity {
     name: string;
     description: string;
     date: Date;
+    timeZone: ITimeZone;
     promotionDate?: Date;
+    promotionTimeZone?: ITimeZone;
     coverImageURL?: string;
     status: IConversationStatus;
     topics: ITopic[];
