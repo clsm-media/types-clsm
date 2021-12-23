@@ -14,3 +14,4 @@
 /// <reference path="./accessCodes.d.ts" />
 /// <reference path="./timeZones.d.ts" />
 /// <reference path="./totalReactions.d.ts" />
+/// <reference path="./totalBatches.d.ts" />
