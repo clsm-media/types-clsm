@@ -29,6 +29,7 @@ declare namespace Entity {
     associates: IBrand[];
     producers: IUser[];
     isScheduled: boolean;
+    isHandRaised: boolean;
     shareURL: string;
     playbackFileURL?: string;
     streamURL?: string;
