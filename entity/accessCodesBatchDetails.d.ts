@@ -1,7 +1,7 @@
 declare namespace Entity {
   interface IAccessCodesBatchDetails {
     id: string;
-    user: Entity.IUser;
+    admin: Entity.IAdmin;
     name: string;
     contactEmail: string;
     batchName: string;

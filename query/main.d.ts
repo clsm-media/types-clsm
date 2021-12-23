@@ -24,3 +24,4 @@
 /// <reference path="./getPaginatedBatches.d.ts" />
 /// <reference path="./getTimeZones.d.ts" />
 /// <reference path="./totalReactions.d.ts" />
+/// <reference path="./totalBatches.d.ts" />
