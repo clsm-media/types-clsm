@@ -7,6 +7,7 @@ declare namespace Mutation {
     interface Variables {
       input: {
         conversationId: string;
+        desiredRaisedHand?: boolean;
       };
     }
   }
