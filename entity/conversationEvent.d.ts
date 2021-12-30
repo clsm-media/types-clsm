@@ -12,7 +12,7 @@ declare namespace Entity {
     | 'USER_RAISED_HAND'
     | 'USER_CHANGE_STATUS';
 
-  type ConversationUserStatusType =
+  type IConversationUserStatusType =
     'JOINED'
     | 'LEFT'
     | 'LISTENER_TO_UPCOMING'
