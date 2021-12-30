@@ -1,4 +1,4 @@
-declare namespace Enum {
+declare namespace Enums {
   enum EventEnum {
     JOINED = 'JOINED',
     LEFT = 'LEFT',
