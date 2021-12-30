@@ -18,6 +18,8 @@ declare namespace Entity {
     qtyFollowers: number;
     qtyFollowings: number;
     isFollowed: boolean;
+    isRaisedHand: boolean;
+    spoke: boolean;
     createdAt: Date;
     updatedAt: Date;
     __typename: string;

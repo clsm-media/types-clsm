@@ -28,6 +28,9 @@ declare namespace Entity {
     sponsors: IBrand[];
     associates: IBrand[];
     producers: IUser[];
+    guests: IUser[];
+    upcomingSpeakers: IUser[];
+    speakersHasSpoken: IUser[];
     isScheduled: boolean;
     isHandRaised: boolean;
     shareURL: string;
