@@ -1,5 +1,5 @@
 declare namespace Enums {
-  enum EventEnum {
+  enum EventTypes {
     JOINED = 'JOINED',
     LEFT = 'LEFT',
     USER_RAISED_HAND = 'USER_RAISED_HAND',

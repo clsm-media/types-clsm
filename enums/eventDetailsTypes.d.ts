@@ -1,5 +1,5 @@
 declare namespace Enums {
-  enum EventDetailEnum {
+  enum EventDetailTypes {
     LISTENER_TO_SPEAKER = 'LISTENER_TO_SPEAKER',
     LISTENER_TO_UPCOMING = 'LISTENER_TO_UPCOMING',
     UPCOMING_TO_LISTENER = 'UPCOMING_TO_LISTENER',
