@@ -9,7 +9,17 @@ declare namespace Entity {
     | 'HOST_LEAVES'
     | 'USER_REACTS'
     | 'USER_ISSUE'
-    | 'USER_RAISED_HAND';
+    | 'USER_RAISED_HAND'
+    | 'USER_CHANGE_STATUS';
+
+  type ConversationUserStatusType =
+    'JOINED'
+    | 'LEFT'
+    | 'LISTENER_TO_UPCOMING'
+    | 'UPCOMING_TO_LISTENER'
+    | 'LISTENER_TO_SPEAKER'
+    | 'SPEAKER_TO_LISTENER'
+    | 'UPCOMING_TO_SPEAKER';
 
   interface IConversationEvent {
     id: string;

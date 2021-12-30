@@ -25,3 +25,6 @@
 /// <reference path="./getTimeZones.d.ts" />
 /// <reference path="./totalReactions.d.ts" />
 /// <reference path="./totalBatches.d.ts" />
+/// <reference path="./guestSpeakers.d.ts" />
+/// <reference path="./guestUpcoming.d.ts" />
+/// <reference path="./getPaginatedListeners.d.ts" />
