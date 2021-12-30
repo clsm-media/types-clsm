@@ -46,3 +46,5 @@
 /// <reference path="./createTimeZone.d.ts" />
 /// <reference path="./updateTimeZone.d.ts" />
 /// <reference path="./deleteTimeZone.d.ts" />
+/// <reference path="./putFanAsUpcomingGuestToConversation.d.ts" />
+/// <reference path="./deleteFanAsUpcomingGuestToConversation.d.ts" />
