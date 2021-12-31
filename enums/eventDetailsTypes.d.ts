@@ -1,15 +1,11 @@
 declare namespace Enums {
-  enum EventDetailsTypesEnum {
-    LISTENER_TO_SPEAKER = 'LISTENER_TO_SPEAKER',
-    LISTENER_TO_UPCOMING = 'LISTENER_TO_UPCOMING',
-    UPCOMING_TO_LISTENER = 'UPCOMING_TO_LISTENER',
-    UPCOMING_TO_SPEAKER = 'UPCOMING_TO_SPEAKER',
-    SPEAKER_TO_LISTENER = 'SPEAKER_TO_LISTENER',
-    JOINED = 'JOINED',
-    LEFT = 'LEFT',
-  }
-
-  interface IEventDetailsTypes {
-    constants: EventDetailsTypesEnum;
+  enum EventDetailsTypes {
+    LISTENER_TO_SPEAKER = 0,
+    LISTENER_TO_UPCOMING = 1,
+    UPCOMING_TO_LISTENER = 2,
+    UPCOMING_TO_SPEAKER = 3,
+    SPEAKER_TO_LISTENER = 4,
+    JOINED = 5,
+    LEFT = 6,
   }
 }
