@@ -10,6 +10,7 @@ declare namespace Mutation {
       input: {
         email: string;
         password: string;
+        accessCode?: string;
       }
     }
   }
