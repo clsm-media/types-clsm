@@ -12,7 +12,7 @@ declare namespace Query {
       filter?: {
         searchTerm?: string;
         conversationId: string;
-        showOnlyUserSpoke?: string;
+        showOnlyUserSpoke?: boolean;
       };
     }
   }
