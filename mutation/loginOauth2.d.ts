@@ -9,11 +9,13 @@ declare namespace Mutation {
     interface Variables {
       google?: {
         idToken: string;
+        accessCode: string;
       },
       apple?: {
         idToken: string;
         firstName: string;
         lastName: string;
+        accessCode: string;
       }
     }
   }
