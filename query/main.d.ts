@@ -28,3 +28,4 @@
 /// <reference path="./guestSpeakers.d.ts" />
 /// <reference path="./guestUpcoming.d.ts" />
 /// <reference path="./getPaginatedListeners.d.ts" />
+/// <reference path="./getPaginatedAccessCodes.d.ts" />
