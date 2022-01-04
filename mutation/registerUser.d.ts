@@ -11,7 +11,6 @@ declare namespace Mutation {
         firstName: string;
         lastName: string;
         accessCode: string;
-        accessCode?: string;
       };
     }
   }
