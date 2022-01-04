@@ -48,3 +48,4 @@
 /// <reference path="./deleteTimeZone.d.ts" />
 /// <reference path="./putFanAsUpcomingGuestToConversation.d.ts" />
 /// <reference path="./deleteFanAsUpcomingGuestToConversation.d.ts" />
+/// <reference path="./exportBatch.d.ts" />
