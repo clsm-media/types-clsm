@@ -49,3 +49,4 @@
 /// <reference path="./putFanAsUpcomingGuestToConversation.d.ts" />
 /// <reference path="./deleteFanAsUpcomingGuestToConversation.d.ts" />
 /// <reference path="./exportBatch.d.ts" />
+/// <reference path="./sendBatchToEmail.d.ts" />
