@@ -10,7 +10,7 @@ declare namespace Mutation {
         password: string;
         firstName: string;
         lastName: string;
-        accessCode: string;
+        accessCode?: string;
       };
     }
   }
