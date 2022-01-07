@@ -31,6 +31,7 @@ declare namespace Helper {
       cd?: number; // "cd": closed captions duration
       co?: number; // "co": closed captions offset
       l?: number; // "l": amount of listeners (if any)
+      hp?: number; // "hp": amount of current hosts and producers in the call (if any)
     }
   }
 }
