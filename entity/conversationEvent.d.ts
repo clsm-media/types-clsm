@@ -21,6 +21,14 @@ declare namespace Entity {
     | 'SPEAKER_TO_LISTENER'
     | 'UPCOMING_TO_SPEAKER';
 
+  type IConversationTopicStatusType =
+    'CREATED'
+    | 'REMOVED'
+    | 'VOTED'
+    | 'UPCOMING'
+    | 'REMOVED_UPCOMING'
+    | 'CURRENT_TO_COMPLETED';
+
   interface IConversationEvent {
     id: string;
     eventDetails?: string;
