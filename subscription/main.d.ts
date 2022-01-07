@@ -1,2 +1,3 @@
 
-/// <reference path="./onuserreaction.d.ts" />
+/// <reference path="./onUserReaction.d.ts" />
+/// <reference path="./onTopicInteraction.d.ts" />

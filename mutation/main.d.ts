@@ -50,3 +50,5 @@
 /// <reference path="./deleteFanAsUpcomingGuestToConversation.d.ts" />
 /// <reference path="./exportBatch.d.ts" />
 /// <reference path="./sendBatchToEmail.d.ts" />
+/// <reference path="./nextTopic.d.ts" />
+/// <reference path="./removeNextTopic.d.ts" />
