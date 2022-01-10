@@ -8,6 +8,7 @@ declare namespace Mutation {
       input: {
         conversationId: string;
         reactionType: Entity.IReactionType;
+        offsetInSeconds?: number;
       }
     }
   }
