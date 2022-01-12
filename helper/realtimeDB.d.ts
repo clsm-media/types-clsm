@@ -19,6 +19,14 @@ declare namespace Helper {
         fn?: string; // "fn": user full name
         m?: number; // "m": if the user is muted
       }[];
+      // "p": producers participating in the conference (if any)
+      p?: {
+        i: string; // "i": user id
+        s?: number; // "s": if the user is speaking
+        p?: string; // "p": user profile picture (URL)
+        fn?: string; // "fn": user full name
+        m?: number; // "m": if the user is muted
+      }[];
       // "g": guests participating in the conference (if any)
       g?: {
         i: string; // "i": user id
