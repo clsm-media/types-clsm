@@ -1,9 +1,7 @@
 declare namespace Mutation {
   namespace CreateIssue {
-    import IIssue = Entity.IIssue;
-
     interface Response {
-      createIssue?: IIssue;
+      createIssue?: Boolean;
     }
 
     interface Variables {
