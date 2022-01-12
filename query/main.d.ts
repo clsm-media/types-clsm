@@ -29,3 +29,5 @@
 /// <reference path="./guestUpcoming.d.ts" />
 /// <reference path="./getPaginatedListeners.d.ts" />
 /// <reference path="./getPaginatedAccessCodes.d.ts" />
+/// <reference path="./getPaginatedIssues.d.ts" />
+/// <reference path="./getIssueById.d.ts" />

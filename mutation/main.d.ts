@@ -52,3 +52,5 @@
 /// <reference path="./sendBatchToEmail.d.ts" />
 /// <reference path="./nextTopic.d.ts" />
 /// <reference path="./removeNextTopic.d.ts" />
+/// <reference path="./changeIssueStatus.d.ts" />
+/// <reference path="./addIssueNote.d.ts" />

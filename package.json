@@ -1,6 +1,6 @@
 {
   "name": "@types/clsm",
-  "version": "1.46.1",
+  "version": "1.47.0",
   "description": "Coliseum Types",
   "types": "main.d.ts"
 }

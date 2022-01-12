@@ -1,15 +1,16 @@
 declare namespace Mutation {
-  namespace CreateIssue {
+  namespace ChangeIssueStatus {
     import IIssue = Entity.IIssue;
 
     interface Response {
-      createIssue?: IIssue;
+      changeIssueStatus: IIssue;
     }
 
     interface Variables {
       input: {
-        conversationId: string;
-        issue: string;
+        issueId: string;
+        currentStatus: string;
+        note?: string;
       };
     }
   }
