@@ -54,3 +54,5 @@
 /// <reference path="./removeNextTopic.d.ts" />
 /// <reference path="./changeIssueStatus.d.ts" />
 /// <reference path="./addIssueNote.d.ts" />
+/// <reference path="./deleteIssue.d.ts" />
+/// <reference path="./sendIssueEmail.d.ts" />
