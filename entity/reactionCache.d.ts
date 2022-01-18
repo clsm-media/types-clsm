@@ -8,5 +8,6 @@ declare namespace Entity {
     reactionLove: number;
     reactionFire: number;
     hands: number;
+    topicId: string;
   }
 }
