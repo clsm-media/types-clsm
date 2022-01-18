@@ -39,6 +39,7 @@ declare namespace Entity {
     playbackFileDurationInSeconds?: number;
     startTime?: Date;
     endTime?: Date;
+    completedByUser?: IUser;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;
