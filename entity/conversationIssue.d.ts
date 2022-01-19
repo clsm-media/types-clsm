@@ -1,6 +1,7 @@
 declare namespace Entity {
   type IConversationIssueType =
-    'CHANGE_ISSUE_STATUS'
+    'READ'
+    | 'CHANGE_ISSUE_STATUS'
     | 'SENT_EMAIL'
     | 'ADMIN_NOTE';
 

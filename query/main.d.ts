@@ -31,3 +31,4 @@
 /// <reference path="./getPaginatedAccessCodes.d.ts" />
 /// <reference path="./getPaginatedIssues.d.ts" />
 /// <reference path="./getIssueById.d.ts" />
+/// <reference path="./getPaginatedIssueHistory.d.ts" />
