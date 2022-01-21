@@ -56,3 +56,4 @@
 /// <reference path="./addIssueNote.d.ts" />
 /// <reference path="./deleteIssue.d.ts" />
 /// <reference path="./sendIssueEmail.d.ts" />
+/// <reference path="./setMuteForUser.d.ts" />
