@@ -11,6 +11,7 @@ declare namespace Mutation {
         batchName: string;
         qtyCodes: number;
         shortDescription: string;
+        qtyRedeemedAllowed: number;
       }
     }
   }

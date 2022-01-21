@@ -16,6 +16,7 @@ declare namespace Entity {
     codes: Entity.IAccessCodes[];
     qtyUsedCodes: number;
     usedCodes: Entity.IAccessCodes[];
+    qtyRedeemedAllowed: number;
     __typename: string;
   }
 }

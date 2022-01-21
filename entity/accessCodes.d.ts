@@ -4,8 +4,8 @@ declare namespace Entity {
     batch: Entity.IAccessCodesBatchDetails;
     BatchId: string;
     code: string;
-    user?: Entity.IUser;
-    UserId?: string;
+    qtyRedeemed: number;
+    fulfilled: boolean;
     createdAt: Date;
     updatedAt: Date;
     __typename: string;
