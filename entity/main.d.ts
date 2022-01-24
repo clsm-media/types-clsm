@@ -18,3 +18,4 @@
 /// <reference path="./mimeTypes.d.ts" />
 /// <reference path="./issue.d.ts" />
 /// <reference path="./conversationIssue.d.ts" />
+/// <reference path="./accessCodesRedeemed.d.ts" />

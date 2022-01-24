@@ -1,8 +1,8 @@
 declare namespace Query {
-  namespace GetPaginatedAccessCodes {
+  namespace GetPaginatedAccessCodesRedeemed {
     interface Response {
-      getPaginatedAccessCodes: {
-        data: Entity.IAccessCodes[];
+      getPaginatedAccessCodesRedeemed: {
+        data: Entity.IAccessCodesRedeemed[];
         page: Helper.Pagination.IPagination;
       };
     }
@@ -13,7 +13,6 @@ declare namespace Query {
       filter?: {
         searchTerm?: string;
         batchId?: string;
-        showOnlyRedeemed?: boolean;
       };
     }
   }
