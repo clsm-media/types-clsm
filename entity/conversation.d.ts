@@ -29,6 +29,8 @@ declare namespace Entity {
     associates: IBrand[];
     producers: IUser[];
     guests: IUser[];
+    hostsConcatenated: string;
+    qtyTags: number;
     upcomingSpeakers: IUser[];
     speakersHasSpoken: IUser[];
     isScheduled: boolean;

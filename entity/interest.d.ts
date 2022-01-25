@@ -3,6 +3,7 @@ declare namespace Entity {
     id: string;
     name: string;
     usedTimes: number;
+    qtyConversationsUsed: number;
     popularity: number;
     createdAt: Date;
     updatedAt: Date;

@@ -11,6 +11,7 @@ declare namespace Entity {
     twitter: string;
     users?: Entity.IUser[]
     isFollowed: boolean;
+    qtyUserFollowers: number;
     qtyFollowers: number;
     qtyFollowings: number;
     interests?: Entity.IInterest[];
