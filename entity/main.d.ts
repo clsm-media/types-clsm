@@ -19,3 +19,4 @@
 /// <reference path="./issue.d.ts" />
 /// <reference path="./conversationIssue.d.ts" />
 /// <reference path="./accessCodesRedeemed.d.ts" />
+/// <reference path="./speakerCache.d.ts" />
