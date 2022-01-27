@@ -42,6 +42,7 @@ declare namespace Entity {
     startTime?: Date;
     endTime?: Date;
     completedByUser?: IUser;
+    isPrivate: boolean;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;

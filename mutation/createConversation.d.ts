@@ -19,6 +19,7 @@ declare namespace Mutation {
         interests: string[];
         sponsorsIds: string[];
         associatedBrandIds: string[];
+        isPrivate?: boolean;
       }
     }
   }
