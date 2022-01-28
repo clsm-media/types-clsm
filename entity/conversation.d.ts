@@ -43,6 +43,7 @@ declare namespace Entity {
     endTime?: Date;
     completedByUser?: IUser;
     isPrivate: boolean;
+    costs: Entity.IConversationTwilioPricing;
     createdAt: Date;
     updatedAt: Date;
     deletedAt?: Date;

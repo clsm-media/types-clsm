@@ -20,3 +20,4 @@
 /// <reference path="./conversationIssue.d.ts" />
 /// <reference path="./accessCodesRedeemed.d.ts" />
 /// <reference path="./speakerCache.d.ts" />
+/// <reference path="./conversationTwilioPricing.d.ts" />
